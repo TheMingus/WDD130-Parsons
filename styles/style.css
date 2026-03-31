@@ -68,7 +68,40 @@ footer {
 }
 footer a {
     color: #5FB294;
-    padding: 0 200px;
+    padding: 0 200px; 
     text-decoration: none;
     font-size: 24px;
+}
+
+/* added css for child pages */
+
+.featured {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    background-color: #5FB294;
+    padding: 8px;
+}
+
+.featured img {
+    width: 100%;
+}
+
+
+.mini-project {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 8px;
+    background-color: #5FB294;
+    padding: 8px;
+    align-items: center;
+}
+
+.mini-project img {
+    width: 100px;
+}
+
+.desc {
+    background-color: #5FB294;
+    padding: 8px;
 }

@@ -40,8 +40,10 @@ header nav a {
 }
 
 .hero img {
-    max-width: 100%;
+    width: 100%;
     margin: 4px 0;
+    object-fit: cover;
+    height: 300px;
 }
 
 .card {
@@ -58,6 +60,10 @@ header nav a {
     display: grid;
     grid-template-columns: 1fr auto;
     gap: 8px;
+}
+
+.project img {
+    max-width: 300px;
 }
 
 footer {
@@ -85,6 +91,7 @@ footer a {
 
 .featured img {
     width: 100%;
+    max-width: 300px;
 }
 
 
